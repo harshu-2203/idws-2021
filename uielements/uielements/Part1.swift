@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Part1: UIViewController {
     
     private let myLabel:UILabel = {
         let label = UILabel()
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
     private let myButton:UIButton = {
         let button = UIButton()
-        button.setTitle("Click Me!", for: .normal)
+        button.setTitle("Part 2", for: .normal)
         button.addTarget(self, action: #selector(handleButtonClick), for: .touchUpInside)
         button.backgroundColor = .systemGreen
         button.layer.cornerRadius = 6
@@ -108,7 +108,7 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        myLabel.frame = CGRect(x: 20, y: 40, width: view.width - 40, height: 40)
+        myLabel.frame = CGRect(x: 20, y: 80, width: view.width - 40, height: 40)
         myTextField.frame = CGRect(x: 20, y: myLabel.bottom + 20, width: view.width - 40, height: 40)
         myTextView.frame = CGRect(x: 20, y: myTextField.bottom + 20, width: view.width - 40, height: 40)
         myButton.frame = CGRect(x: 20, y: myTextView.bottom + 20, width: view.width - 40, height: 40)
@@ -122,6 +122,10 @@ class ViewController: UIViewController {
     
     @objc func handleButtonClick() {
         print("Clicked!")
+        
+        let vc = Part2()
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc func handleDateChange() {
