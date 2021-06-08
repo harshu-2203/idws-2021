@@ -1,6 +1,15 @@
 # iOS Development with Swift 2021
 
-### 2. UIElements (part-1) &nbsp; <small><small><small>*4, May, 2021*</small></small></small>
+### 3. UIElements (part-2) `8, June, 2021`
+
+Introduction to datasource and delegate. Working with following UI Elements:
+
+* UIActivityIndicatorView
+* UIImageView
+* UIProgressView
+* UIPickerView
+
+### 2. UIElements (part-1) `4, May, 2021`
 
 Introduction to programmatic UI. Working with following UI Elements:
 
@@ -15,7 +24,7 @@ Introduction to programmatic UI. Working with following UI Elements:
 * UIStepper
 * UISwitch
 
-### 1. Even Odd &nbsp; <small><small><small>*20, Apr, 2021*</small></small></small>
+### 1. Even Odd `20, Apr, 2021`
 
 A simple program to find out whether the given input is even or odd.
 
