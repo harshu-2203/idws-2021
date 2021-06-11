@@ -61,6 +61,24 @@ class Part2: UIViewController {
     // Picker View
     private let myPickerView = UIPickerView()
     private let pickerData = ["One", "Two", "Three"]
+    
+    // Part 3
+    private let part3Button:UIButton = {
+        let button = UIButton()
+        button.setTitle("Part 3", for: .normal)
+        button.addTarget(self, action: #selector(goToPart3), for: .touchUpInside)
+        button.backgroundColor = .systemGreen
+        button.layer.cornerRadius = 6
+        return button
+    }()
+    
+    @objc private func goToPart3() {
+        let vc = Part3()
+        let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
+        nav.setNavigationBarHidden(true, animated: false)
+        present(nav, animated: false)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +94,8 @@ class Part2: UIViewController {
         
         myPickerView.dataSource = self
         myPickerView.delegate = self
+        
+        view.addSubview(part3Button)
     }
     
     override func viewDidLayoutSubviews() {
@@ -86,6 +106,7 @@ class Part2: UIViewController {
         myImageView.frame = CGRect(x: 20, y: myActivityIndicatorView.bottom + 20, width: view.width - 40, height: 80)
         myProgressView.frame = CGRect(x: 20, y: myImageView.bottom + 20, width: view.width - 40, height: 40)
         myPickerView.frame = CGRect(x: 20, y: myProgressView.bottom + 20, width: view.width - 40, height: 80)
+        part3Button.frame = CGRect(x: 20, y: myPickerView.bottom + 20, width: view.width - 40, height: 40)
     }
 }
 
