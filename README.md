@@ -1,9 +1,15 @@
 # iOS Development with Swift 2021
 
+### 4. UIElements (part-3) `11, June, 2021`
+
+Introduction to modal presentation. Working with following UI Elements:
+* UIToolbar
+* UITabBar
+* UIImagePickerController
+
 ### 3. UIElements (part-2) `8, June, 2021`
 
 Introduction to datasource and delegate. Working with following UI Elements:
-
 * UIActivityIndicatorView
 * UIImageView
 * UIProgressView
@@ -12,7 +18,6 @@ Introduction to datasource and delegate. Working with following UI Elements:
 ### 2. UIElements (part-1) `4, May, 2021`
 
 Introduction to programmatic UI. Working with following UI Elements:
-
 * UILabel
 * UITextField
 * UITextView
@@ -29,7 +34,6 @@ Introduction to programmatic UI. Working with following UI Elements:
 A simple program to find out whether the given input is even or odd.
 
 Introduction to:
-
 * View Controller Life Cycle
 * Programmatic UI
 * Navigation Controller
