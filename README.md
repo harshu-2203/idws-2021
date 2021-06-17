@@ -1,5 +1,14 @@
 # iOS Development with Swift 2021
 
+### 5. TableViews `15, 17, June, 2021`
+
+Introduction to table view. Working with following:
+* UITableViewDataSource and UITableViewDelegate methods
+* Custom UITableViewCell
+* UIView animation
+* WebKit, WKUIDelegate and WKWebView
+* Search Bar, UISearchBarDelegate methods
+
 ### 4. UIElements (part-3) `11, June, 2021`
 
 Introduction to modal presentation. Working with following UI Elements:
