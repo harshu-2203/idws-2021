@@ -1,5 +1,12 @@
 # iOS Development with Swift 2021
 
+### 6. CollectionViews `17, June, 2021`
+
+Introduction to collection view. Working with following:
+* UICollectionViewDataSource and UICollectionViewDelegate methods
+* Custom UICollectionViewCell
+* Tic Tac Toe Game
+
 ### 5. TableViews `15, 17, June, 2021`
 
 Introduction to table view. Working with following:
